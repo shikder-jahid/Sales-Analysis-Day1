@@ -1,3 +1,7 @@
+-- sql
+-- Author: Shikder Jahid
+-- Date: 2025-10-30
+
 CREATE TABLE sales_data (OrderID INTEGER, Product TEXT, Region TEXT, Quantity INTEGER, Unit_Price INTEGER, Total_Sales INTEGER);
 
 INSERT INTO sales_data VALUES(1001, 'Laptop', 'North', 1, 800, 800);
@@ -10,3 +14,4 @@ INSERT INTO sales_data VALUES(1007, 'Mouse', 'East', 1, 20, 20);
 INSERT INTO sales_data VALUES(1008, 'Keyboard', 'West', 1, 30, 30);
 INSERT INTO sales_data VALUES(1009, 'Monitor', 'North', 2, 200, 400);
 INSERT INTO sales_data VALUES(1010, 'Headphones', 'South', 3, 50, 150);
+
